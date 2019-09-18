@@ -17,7 +17,7 @@ class Dog
     puts @@all.map { |dog| dog.name }
   end
 
-  def self.clear.all
+  def self.clear_all
     @@all.clear
   end
   
